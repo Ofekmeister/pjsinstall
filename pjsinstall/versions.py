@@ -113,7 +113,7 @@ PJS_VERSION_DATA = {
                 ['git', 'checkout', '2.1.1', ],
                 ['git', 'submodule', 'init', ],
                 ['git', 'submodule', 'update', ],
-                ['python', 'build.py', ],
+                ['python', 'build.py', '--confirm', ],
             ],
             'archive_urls': {
                 'x64': 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2',
@@ -137,7 +137,7 @@ PJS_VERSION_DATA = {
                 ['git', 'checkout', '2.1.1', ],
                 ['git', 'submodule', 'init', ],
                 ['git', 'submodule', 'update', ],
-                ['python', 'build.py', ],
+                ['python', 'build.py', '--confirm', ],
             ],
             'archive_urls': {
                 'x64': 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2',
@@ -161,7 +161,7 @@ PJS_VERSION_DATA = {
                 ['git', 'checkout', '2.1.1', ],
                 ['git', 'submodule', 'init', ],
                 ['git', 'submodule', 'update', ],
-                ['python', 'build.py', ],
+                ['python', 'build.py', '--confirm', ],
             ],
             'archive_urls': {
                 'x64': 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2',
