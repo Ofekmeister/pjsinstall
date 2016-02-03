@@ -4,12 +4,13 @@ PJSinstall - PhantomJS universal installer
 This command line tool attempts to install PhantomJS to the directory of your choice.
 
 Requirements:
+-------------
 * Python with pip installed
 
 
-Usage:
+Usage::
 
-`` pjsinstall -d DIR [-v VERSION] [-m {build,download}] ``
+    pjsinstall -d DIR [-v VERSION] [-m {build,download}]
 
 
 The default version is the current one (located in versions.py) at the time of
@@ -18,5 +19,7 @@ binary if available.
 
 
 TODO:
+-----
+
 * Add FreeBSD support
 * Add tests
