@@ -3,9 +3,17 @@ PJSinstall - PhantomJS universal installer
 
 This command line tool attempts to install PhantomJS to the directory of your choice.
 
-Requirements:
--------------
+Requirements
+------------
 * Python with pip installed
+
+Installation
+------------
+Run::
+
+    pip install https://github.com/Ofekmeister/pjsinstall/archive/master.zip
+
+*PyPI package coming soon*
 
 
 Usage::
@@ -18,8 +26,9 @@ this package's last commit. The default method is to download a pre-compiled
 binary if available.
 
 
-TODO:
------
+TODO
+----
 
+* Upload to PyPI
 * Add FreeBSD support
 * Add tests

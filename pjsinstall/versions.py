@@ -37,7 +37,7 @@ PJS_VERSION_DATA = {
                 ['git', 'clone', 'git://github.com/ariya/phantomjs.git', ],
                 ['cd', 'phantomjs', ],
                 ['git', 'checkout', '2.0', ],
-                ['./build.sh', ],
+                ['./build.sh', '--confirm', ],
             ],
         },
         'fedora': {
@@ -54,7 +54,7 @@ PJS_VERSION_DATA = {
                 ['git', 'clone', 'git://github.com/ariya/phantomjs.git', ],
                 ['cd', 'phantomjs', ],
                 ['git', 'checkout', '2.0', ],
-                ['./build.sh', ],
+                ['./build.sh', '--confirm', ],
             ],
         },
         'rhel': {
@@ -71,7 +71,7 @@ PJS_VERSION_DATA = {
                 ['git', 'clone', 'git://github.com/ariya/phantomjs.git', ],
                 ['cd', 'phantomjs', ],
                 ['git', 'checkout', '2.0', ],
-                ['./build.sh', ],
+                ['./build.sh', '--confirm', ],
             ],
         },
     },
