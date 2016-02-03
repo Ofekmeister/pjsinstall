@@ -15,8 +15,10 @@ Run::
 
 *PyPI package coming soon*
 
+Usage
+-----
 
-Usage::
+In shell/cmd::
 
     pjsinstall -d DIR [-v VERSION] [-m {build,download}]
 
